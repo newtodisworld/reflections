@@ -4,3 +4,5 @@ It creates a .git folder in the folder we run the command. From now onwards, git
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Don't know
+
+changes
