@@ -1,0 +1,33 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It showed the lines that we changed. So that now we can double check, whatever we did was good.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long terM?
+
+You can keep track of the developments you made. You can keep track of how the software evolved from nothing to full fledged program. And learn from its growth.
+If you made a mistake somewhere down the line, you can go back to history to see what you did wrong and where you did wrong
+You can as well, take risks and keep writing new code, as you know, if something breaks, you can always go back.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+con
+You don't know what logical change went in.
+You don't give a proper message.
+history can be long and not understandable/
+
+pro
+you simply save the file.
+
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because, git thinks that all files are interrelated.
+
+5. How can you use the commands git log and git diff to view the history of files?
+git log can be used to view the logs of all the commits that went into with a message for each commit.
+git diff can be used to to see the diffs between two commits. For example if we have found the message that corresponds to the commit we are looking for, we can use git diff command to see what exactly went in.
+
+6. How might using version control make you more confident to make changes that could break something?
+If something gets broken I always have the whole history of what all went in. And can zero down to the change that broke something. And if I am patient, can always start from the last good working version and build everything one more time :)
+There is always a good working version available to go back to, if anything goes wrong
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+Don't know yet.

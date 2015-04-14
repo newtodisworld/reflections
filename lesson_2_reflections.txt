@@ -1,0 +1,3 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+It creates a .git folder in the folder we run the command. From now onwards, git will take this folder as a repository.
