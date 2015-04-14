@@ -4,5 +4,11 @@ It creates a .git folder in the folder we run the command. From now onwards, git
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Don't know
+staging area is the output of git status command. It tells you the current state of working directory. If there are any modified files, or there are files that will be committed.
 
-changes
+3. How can you use the staging area to make sure you have one commit per logical change?
+Will come back later
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches may help when I want to have two different versions of the same program with some common functionalities. But then I would be committing common change to both the branches
+Branches can also be used as labels. You can assign a label when you feel, you are going to start something new, and then if the new doesn't work, (or if there is a bug in the label) go back to the label (or branch) and continue on that branch. (or do the vice versa - create a branch and start new on that branch and if it works merge it to master, or if it doesn't work, stop it) (need to know how to delete a branch)
