@@ -7,8 +7,11 @@ Don't know
 staging area is the output of git status command. It tells you the current state of working directory. If there are any modified files, or there are files that will be committed.
 
 3. How can you use the staging area to make sure you have one commit per logical change?
-Will come back later
+Having a staging area, in addition to the repository and working directory gives you a temporary storage area, which are ready to be committed, but then you can experiment further in the working directory.
 
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches may help when I want to have two different versions of the same program with some common functionalities. But then I would be committing common change to both the branches
 Branches can also be used as labels. You can assign a label when you feel, you are going to start something new, and then if the new doesn't work, (or if there is a bug in the label) go back to the label (or branch) and continue on that branch. (or do the vice versa - create a branch and start new on that branch and if it works merge it to master, or if it doesn't work, stop it) (need to know how to delete a branch)
+
+5. How do the diagrams help you visualize the branch structure?
+Diagrams can tell you at what commit_id, (or commit message), the two branches forked out. And then what all went into each one of them.
