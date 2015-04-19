@@ -15,3 +15,9 @@ Branches can also be used as labels. You can assign a label when you feel, you a
 
 5. How do the diagrams help you visualize the branch structure?
 Diagrams can tell you at what commit_id, (or commit message), the two branches forked out. And then what all went into each one of them.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Result of merging two branches. Need to reflect some more on this.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+git's automatic merging saves time and headaches, but it means lesser control on what's going in.
