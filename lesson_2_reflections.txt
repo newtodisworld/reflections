@@ -1,20 +1,19 @@
 1. What happens when you initialize a repository? Why do you need to do it?
 
-It creates a .git folder in the folder we run the command. From now onwards, git will take this folder as a repository.
+It creates a .git folder in the folder we run the command. From now onwards, git will recognize this folder as a repository.
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
-Don't know
-staging area is the output of git status command. It tells you the current state of working directory. If there are any modified files, or there are files that will be committed.
+Staging area is one step before the repository. It's an intermediate stage between working directory and repository. It's a connection between working directory and repository, through which every file must go. You can keep your files that are ready to be committed in the staging area, and then modify the working area, and if working area becomes better, again stage it or simply commit the staging area, and discard changes made to the working directory. So it's an intermediate step between working directory and repository.
 
 3. How can you use the staging area to make sure you have one commit per logical change?
-Having a staging area, in addition to the repository and working directory gives you a temporary storage area, which are ready to be committed, but then you can experiment further in the working directory.
+Having a staging area, in addition to the repository and working directory gives you a temporary storage area, which stores files ready to be committed, and then you can experiment further in the working directory. If experiment goes good, stage it again, else discard changes and commit the staging area with a good message. Staging area means, things can be committed but let's see if I can improve further.
 
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches may help when I want to have two different versions of the same program with some common functionalities. But then I would be committing common change to both the branches
 Branches can also be used as labels. You can assign a label when you feel, you are going to start something new, and then if the new doesn't work, (or if there is a bug in the label) go back to the label (or branch) and continue on that branch. (or do the vice versa - create a branch and start new on that branch and if it works merge it to master, or if it doesn't work, stop it) (need to know how to delete a branch)
 
 5. How do the diagrams help you visualize the branch structure?
-Diagrams can tell you at what commit_id, (or commit message), the two branches forked out. And then what all went into each one of them.
+Diagrams can tell you at what commit_id, (or commit message), the two branches forked out. And then what all went into each one of them. And when they merged back (if they merged).
 
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Result of merging two branches. Need to reflect some more on this.
